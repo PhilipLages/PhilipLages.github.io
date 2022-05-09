@@ -1,0 +1,31 @@
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline;
+  margin-right: 4cm;
+  float: right;
+  margin-top: 4cm;      
+}
+.bodyfont{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background-color:  #00004C;
+  color: lightgray;        
+}
+img{
+  border-radius: 100%;
+  margin-left: 4cm;             
+}
+.link{
+  text-decoration: none;
+  color: lightgray;
+}
+#skill1{
+  font-size: 20px;
+}
+#skill2{
+  font-size: 18px;
+}
+#skill3{
+  font-size: 16px;
+}
