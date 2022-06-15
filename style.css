@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+.header {
+  /* position: fixed; */
+  background-color: black;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.logo {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: 1000;
+  color: lightgray;
+}
+
+.lio {
+  color: red;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 2px;  
+}
+
+.menu li a {
+  color: lightgray;
+  opacity: 60%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  opacity: 100%;
+  color: red;
+  font-weight: 700;
+}
+
+.hero {
+  background-image: url(./Imagens/minimal-abstract-background-4k-f2.jpg);
+  background-size: cover;
+  height: 500px;
+  box-shadow: 5px 4px 5px darkred
+}
+
+.intro {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  align-items: center;  
+}
+
+.intro img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.intro-text {
+  margin-left: 50px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.text1 {
+  font-size: 20px;
+  color: lightgray;
+}
+
+.text2 {
+  font-size: 35px;
+  color: lightgray;
+}
+
+.text3 {
+  font-size: 20px;
+  color: lightgray;
+}
+
+.intro-text span {
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+hr {
+  width: 800px;  
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0px 30px 0px;
+}
+
+.titles {
+  text-align: center;
+  color: red;
+  width: 20%;
+}
+
+.paragraphs {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.icons, .soft-skills {
+  margin: auto;
+}
+
+.soft-skills li {
+  text-align: center;
+}
+
+.projects {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer a {
+  color: lightgray;
+  opacity: 60%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  opacity: 100%;
+  color: red;
+  font-weight: 700;
+}
